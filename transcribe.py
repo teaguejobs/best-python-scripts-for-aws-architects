@@ -36,3 +36,4 @@ while True:
 # Print the transcription job status and output URL
 print(job['TranscriptionJob']['TranscriptionJobStatus'])
 print(job['TranscriptionJob']['Transcript']['TranscriptFileUri'])
+

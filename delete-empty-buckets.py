@@ -1,8 +1,8 @@
 import boto3
 
 # Set up access credentials
-access_key = "replace with access key"
-secret_key = "replace with secret access key"
+access_key = "AKIAZHFRY3CXHHWSLPUR"
+secret_key = "MJPx304sMaXTDPuar1+HttOMriO89zqf927RYL7y"
 region_name = 'us-east-1'
 
 # Create an S3 client
@@ -29,3 +29,5 @@ for bucket in buckets:
 for bucket_name in empty_buckets:
     s3.Bucket(bucket_name).delete()
     print(f"Bucket {bucket_name} deleted.")
+
+
