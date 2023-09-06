@@ -43,4 +43,4 @@ def send_email_sns_ses(subject, message, recipient):
     print("Email sent successfully!")
 
 if __name__ == "__main__":
-    send_email_sns_ses('Test Email', 'Hello, This is Primuslearning and it is a test email sent using Amazon SNS and SES', 'replace with your verified email')
+    send_email_sns_ses('Test Email', 'Hello, This is Primuslearnin and it is a test email sent using Amazon SNS and SES', 'replace with your verified email')

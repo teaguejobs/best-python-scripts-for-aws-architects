@@ -1,8 +1,8 @@
 import boto3
 
 # Set up access credentials
-access_key = "AKIAZHFRY3CXHHWSLPUR"
-secret_key = "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"
+access_key = "ACCESS_KEY"
+secret_key = "SECRET_ACCESS_KEY"
 region_name = 'us-east-1'
 
 # Create an S3 client

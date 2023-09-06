@@ -1,7 +1,7 @@
 import boto3
 
 AWS_ACCESS_KEY_ID = "replace with access key"
-AWS_SECRET_ACCESS_KEY = "replace with secret access key"
+AWS_SECRET_ACCESS_KEY = "replace wit secret access key"
 
 def cleanup_snapshots():
     ec2 = boto3.client('ec2', aws_access_key_id=AWS_ACCESS_KEY_ID, aws_secret_access_key=AWS_SECRET_ACCESS_KEY)
